@@ -1,0 +1,19 @@
+{
+  "name": "pods2020",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/oddgoo/poetics_of_digital_spaces_talk.git"
+  },
+  "author": "@oddgoo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oddgoo/poetics_of_digital_spaces_talk/issues"
+  },
+  "homepage": "https://github.com/oddgoo/poetics_of_digital_spaces_talk#readme"
+}
