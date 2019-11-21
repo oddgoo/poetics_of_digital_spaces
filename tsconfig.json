@@ -1,9 +1,16 @@
 {
   "compilerOptions": {
-    "target": "ES6",
-    "module": "commonjs",
+    "target": "es5",
     "sourceMap": true,
-    "noImplicitAny": false,
-    "strict": false
-  }
+    "plugins": [
+      {
+        "name": "typescript-tslint-plugin",
+        "alwaysShowRuleFailuresAsWarnings": false,
+        "ignoreDefinitionFiles": false,
+      }
+    ]
+  },
+  "include": [
+    "**/*.ts"
+  ],
 }
